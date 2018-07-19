@@ -1,0 +1,158 @@
+--------------------------------------------------
+o")~   Snort++ 3.0.0-241
+--------------------------------------------------
+Loading /home/odroid/Downloads/clort.lua:
+	binder
+	search_engine
+	classifications
+	ips
+	latency
+	wizard
+	references
+Finished /home/odroid/Downloads/clort.lua.
+Loading rules:
+Loading /home/odroid/Downloads/snort3-community-rules/snort3-community.rules:
+Finished /home/odroid/Downloads/snort3-community-rules/snort3-community.rules.
+Finished rules.
+--------------------------------------------------
+rule counts
+       total rules loaded: 829
+               text rules: 829
+            option chains: 829
+            chain headers: 46
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      63       3       0       0
+     src     124       3       0       0
+     dst     539      98       0       0
+    both       0       1       0       0
+   total     726     105       0       0
+--------------------------------------------------
+flowbits
+                  defined: 20
+              not checked: 11
+                  not set: 3
+--------------------------------------------------
+service rule counts - tcp    to-srv  to-cli
+                      dns:        1       0
+                      ftp:        7       2
+                 ftp-data:        0       8
+                     http:      485      92
+                     imap:        0       8
+                      irc:        4       1
+              netbios-ssn:       15       1
+                     pop3:        0       8
+                     smtp:       16       0
+                      ssl:       14      31
+                   telnet:        1       0
+                    total:      543     151
+--------------------------------------------------
+service rule counts - udp    to-srv  to-cli
+                      dns:       88       2
+                     http:        4       0
+                    total:       92       2
+--------------------------------------------------
+fast pattern port groups        src     dst     any
+                   packet:       13      24       2
+                      key:        0       1       0
+                   header:        1       1       1
+                     body:        0       1       0
+                     file:        2       3       1
+--------------------------------------------------
+fast pattern service groups  to-srv  to-cli
+                   packet:       10       6
+                      key:        1       0
+                   header:        1       4
+                     body:        1       0
+                     file:        2       4
+--------------------------------------------------
+search engine
+           storage format: full
+         finite automaton: DFA
+            alphabet size: 256
+                instances: 74
+                 patterns: 1649
+            pattern chars: 34054
+                   states: 26083
+              transitions: 487953
+             match states: 1656
+             sizeof state: 4
+             memory scale: MB
+             total memory: 26.1042
+           pattern memory: 0.121567
+        match list memory: 0.196621
+--------------------------------------------------
+pcap DAQ configured to passive.
+Commencing packet processing
+
+ Main loop started
+ ++ [0] eth0
+** caught term signal
+== stopping
+-- [0] eth0
+
+ Main loop finished
+ ### Total Matches reported:  47811
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 736163
+                 analyzed: 636873
+                  dropped: 99208
+              outstanding: 99290
+                    allow: 636873
+                     idle: 1
+                 rx_bytes: 316372005
+--------------------------------------------------
+codec
+                    total: 636873      	(100.000%)
+                 discards: 92723       	( 14.559%)
+                      arp: 4619        	(  0.725%)
+                      eth: 636873      	(100.000%)
+                    icmp4: 7           	(  0.001%)
+                 icmp4_ip: 7           	(  0.001%)
+                    icmp6: 26          	(  0.004%)
+                     igmp: 28          	(  0.004%)
+                     ipv4: 631854      	( 99.212%)
+                     ipv6: 373         	(  0.059%)
+            ipv6_hop_opts: 26          	(  0.004%)
+                      llc: 27          	(  0.004%)
+                      tcp: 502453      	( 78.894%)
+                      udp: 37155       	(  5.834%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+detection
+                 analyzed: 636873
+             raw_searches: 430033
+             pkt_searches: 430033
+--------------------------------------------------
+search_engine
+           searched_bytes: 288664685
+--------------------------------------------------
+latency
+            total_packets: 636873
+              total_usecs: 9473058
+                max_usecs: 30838
+          packet_timeouts: 157
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 160
+--------------------------------------------------
+udp
+        bad_udp4_checksum: 9
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:00:30
+                  seconds: 30.801407
+                  packets: 736163
+                 pkts/sec: 24538
+o")~   Snort exiting
+###final total matches reported: 48745

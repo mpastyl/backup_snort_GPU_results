@@ -1,0 +1,154 @@
+--------------------------------------------------
+o")~   Snort++ 3.0.0-241
+--------------------------------------------------
+Loading /home/odroid/Downloads/clort.lua:
+	binder
+	search_engine
+	classifications
+	ips
+	latency
+	wizard
+	references
+Finished /home/odroid/Downloads/clort.lua.
+Loading rules:
+Loading /home/odroid/Downloads/snort3-community-rules/snort3-community.rules:
+Finished /home/odroid/Downloads/snort3-community-rules/snort3-community.rules.
+Finished rules.
+--------------------------------------------------
+rule counts
+       total rules loaded: 829
+               text rules: 829
+            option chains: 829
+            chain headers: 46
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      63       3       0       0
+     src     124       3       0       0
+     dst     539      98       0       0
+    both       0       1       0       0
+   total     726     105       0       0
+--------------------------------------------------
+flowbits
+                  defined: 20
+              not checked: 11
+                  not set: 3
+Error CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compile--------------------------------------------------
+service rule counts - tcp    to-srv  to-cli
+                      dns:        1       0
+                      ftp:        7       2
+                 ftp-data:        0       8
+                     http:      485      92
+                     imap:        0       8
+                      irc:        4       1
+              netbios-ssn:       15       1
+                     pop3:        0       8
+                     smtp:       16       0
+                      ssl:       14      31
+                   telnet:        1       0
+                    total:      543     151
+--------------------------------------------------
+service rule counts - udp    to-srv  to-cli
+                      dns:       88       2
+                     http:        4       0
+                    total:       92       2
+Error CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compileError CL compile--------------------------------------------------
+fast pattern port groups        src     dst     any
+                   packet:       13      24       2
+                      key:        0       1       0
+                   header:        1       1       1
+                     body:        0       1       0
+                     file:        2       3       1
+--------------------------------------------------
+fast pattern service groups  to-srv  to-cli
+                   packet:       10       6
+                      key:        1       0
+                   header:        1       4
+                     body:        1       0
+                     file:        2       4
+--------------------------------------------------
+search engine
+           storage format: full
+         finite automaton: DFA
+            alphabet size: 256
+                instances: 74
+                 patterns: 1649
+            pattern chars: 34054
+                   states: 26083
+              transitions: 487953
+             match states: 1656
+             sizeof state: 4
+             memory scale: MB
+             total memory: 26.1042
+           pattern memory: 0.121567
+        match list memory: 0.196621
+Error CL compile--------------------------------------------------
+pcap DAQ configured to passive.
+Commencing packet processing
+
+ Main loop started
+ ++ [0] eth0
+** caught term signal
+== stopping
+-- [0] eth0
+
+ Main loop finished
+ ### Total Matches reported:  4426
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 592055
+                 analyzed: 322788
+                  dropped: 269148
+              outstanding: 269267
+                    allow: 322788
+                     idle: 3
+                 rx_bytes: 93364788
+--------------------------------------------------
+codec
+                    total: 322788      	(100.000%)
+                 discards: 17868       	(  5.536%)
+                      eth: 322788      	(100.000%)
+                    icmp4: 2325        	(  0.720%)
+                 icmp4_ip: 847         	(  0.262%)
+                    icmp6: 36          	(  0.011%)
+                     igmp: 275         	(  0.085%)
+                     ipv4: 322359      	( 99.867%)
+                     ipv6: 420         	(  0.130%)
+            ipv6_hop_opts: 36          	(  0.011%)
+                      llc: 9           	(  0.003%)
+                      tcp: 227039      	( 70.337%)
+                      udp: 75532       	( 23.400%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+detection
+                 analyzed: 322788
+             raw_searches: 207628
+             pkt_searches: 207628
+--------------------------------------------------
+search_engine
+           searched_bytes: 77747745
+--------------------------------------------------
+latency
+            total_packets: 322788
+              total_usecs: 3249516
+                max_usecs: 14774
+          packet_timeouts: 49
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 296
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:00:15
+                  seconds: 15.519435
+                  packets: 592055
+                 pkts/sec: 39470
+o")~   Snort exiting
+###final total matches reported: 5693

@@ -1,0 +1,237 @@
+--------------------------------------------------
+o")~   Snort++ 3.0.0-241
+--------------------------------------------------
+Loading /home/odroid/Downloads/clort.lua:
+	binder
+	search_engine
+	classifications
+	ips
+	latency
+	wizard
+	references
+Finished /home/odroid/Downloads/clort.lua.
+Loading rules:
+Loading /home/odroid/Downloads/snort3-community-rules/snort3-community.rules:
+Finished /home/odroid/Downloads/snort3-community-rules/snort3-community.rules.
+Finished rules.
+--------------------------------------------------
+rule counts
+       total rules loaded: 829
+               text rules: 829
+            option chains: 829
+            chain headers: 46
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any      63       3       0       0
+     src     124       3       0       0
+     dst     539      98       0       0
+    both       0       1       0       0
+   total     726     105       0       0
+--------------------------------------------------
+flowbits
+                  defined: 20
+              not checked: 11
+                  not set: 3
+Using version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compile--------------------------------------------------
+service rule counts - tcp    to-srv  to-cli
+                      dns:        1       0
+                      ftp:        7       2
+                 ftp-data:        0       8
+                     http:      485      92
+                     imap:        0       8
+                      irc:        4       1
+              netbios-ssn:       15       1
+                     pop3:        0       8
+                     smtp:       16       0
+                      ssl:       14      31
+                   telnet:        1       0
+                    total:      543     151
+--------------------------------------------------
+service rule counts - udp    to-srv  to-cli
+                      dns:       88       2
+                     http:        4       0
+                    total:       92       2
+Using version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compileUsing version : 3
+Error CL compile--------------------------------------------------
+fast pattern port groups        src     dst     any
+                   packet:       13      24       2
+                      key:        0       1       0
+                   header:        1       1       1
+                     body:        0       1       0
+                     file:        2       3       1
+--------------------------------------------------
+fast pattern service groups  to-srv  to-cli
+                   packet:       10       6
+                      key:        1       0
+                   header:        1       4
+                     body:        1       0
+                     file:        2       4
+--------------------------------------------------
+search engine
+           storage format: full
+         finite automaton: DFA
+            alphabet size: 256
+                instances: 74
+                 patterns: 1649
+            pattern chars: 34054
+                   states: 26083
+              transitions: 487953
+             match states: 1656
+             sizeof state: 4
+             memory scale: MB
+             total memory: 26.1042
+           pattern memory: 0.121567
+        match list memory: 0.196621
+Using version : 3
+Error CL compile--------------------------------------------------
+pcap DAQ configured to passive.
+Commencing packet processing
+
+ Main loop started
+ ++ [0] eth0
+** caught term signal
+== stopping
+-- [0] eth0
+
+ Main loop finished
+ ### Total Matches reported:  23358
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 626231
+                 analyzed: 407297
+                  dropped: 218866
+              outstanding: 218934
+                    allow: 407297
+                     idle: 1
+                 rx_bytes: 145801352
+--------------------------------------------------
+codec
+                    total: 407297      	(100.000%)
+                 discards: 43951       	( 10.791%)
+                      arp: 4610        	(  1.132%)
+                      eth: 407297      	(100.000%)
+                    icmp4: 4           	(  0.001%)
+                 icmp4_ip: 4           	(  0.001%)
+                    icmp6: 23          	(  0.006%)
+                     igmp: 23          	(  0.006%)
+                     ipv4: 402348      	( 98.785%)
+                     ipv6: 327         	(  0.080%)
+            ipv6_hop_opts: 23          	(  0.006%)
+                      llc: 12          	(  0.003%)
+                      tcp: 324338      	( 79.632%)
+                      udp: 34422       	(  8.451%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+detection
+                 analyzed: 407297
+             raw_searches: 266913
+             pkt_searches: 266913
+--------------------------------------------------
+search_engine
+               max_queued: 4
+            total_inserts: 23358
+             total_unique: 18988
+     non_qualified_events: 18988
+           searched_bytes: 115776694
+--------------------------------------------------
+latency
+            total_packets: 407297
+              total_usecs: 5396556
+                max_usecs: 192
+         total_rule_evals: 18988
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 88
+--------------------------------------------------
+udp
+        bad_udp4_checksum: 2
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:00:19
+                  seconds: 19.429542
+                  packets: 626231
+                 pkts/sec: 32959
+o")~   Snort exiting
+###final total matches reported: 23358
