@@ -1,0 +1,5 @@
+version: 0 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community.rules dataset: /home/odroid/Downloads/smallFlows.pcap seconds: 0.712750
+version: 0 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community.rules dataset: /home/odroid/Downloads/bigFlows.pcap seconds: 30.137855
+version: 1 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community.rules dataset: /home/odroid/Downloads/smallFlows.pcap seconds: 0.774706
+version: 1 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community.rules dataset: /home/odroid/Downloads/bigFlows.pcap seconds: 30.29014
+version: 2 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community.rules dataset: /home/odroid/Downloads/smallFlows.pcap seconds: 0.759858
