@@ -1,0 +1,12 @@
+version: 0 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_default_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 71.731875
+version: 0 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_medium_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 82.99698
+version: 0 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_full_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 105.693364
+version: 1 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_default_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 56.439413
+version: 1 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_medium_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 67.229322
+version: 1 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_full_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 89.410447
+version: 2 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_default_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 47.199773
+version: 2 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_medium_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 57.283679
+version: 2 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_full_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 78.783744
+version: 3 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_default_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 73.435731
+version: 3 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_medium_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 91.372445
+version: 3 patterns: /home/odroid/Downloads/snort3-community-rules/snort3-community_full_all_content.rules dataset: /home/odroid/Downloads/testbed-12jun_1.pcap seconds: 118.208034
